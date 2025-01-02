@@ -1,0 +1,32 @@
+{
+  "name": "pdfjs-altered",
+  "version": "4.9.155",
+  "main": "build/pdf.mjs",
+  "types": "types/src/pdf.d.ts",
+  "description": "Altered version of generic build of Mozilla's PDF.js library.",
+  "keywords": [
+    "Mozilla",
+    "pdf",
+    "pdf.js"
+  ],
+  "homepage": "https://mozilla.github.io/pdf.js/",
+  "license": "Apache-2.0",
+  "optionalDependencies": {
+    "@napi-rs/canvas": "^0.1.64"
+  },
+  "browser": {
+    "canvas": false,
+    "fs": false,
+    "http": false,
+    "https": false,
+    "url": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorep/pdfjs-altered.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {}
+}
